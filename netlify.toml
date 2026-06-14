@@ -1,11 +1,11 @@
 [build]
   command = "npm run build"
-  functions = "netlify/functions"
   publish = ".next"
+  functions = "netlify/functions"
 
 [build.environment]
   NODE_VERSION = "18"
-  NEXT_PUBLIC_API_URL = "/"
+  NEXT_PUBLIC_BASEPATH = ""
 
 [[redirects]]
   from = "/*"
@@ -15,9 +15,5 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    Cache-Control = "public, max-age=3600"
-
-[[headers]]
-  for = "/api/*"
-  [headers.values]
-    Cache-Control = "no-cache"
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
