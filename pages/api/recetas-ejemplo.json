@@ -1,0 +1,200 @@
+[
+  {
+    "titulo": "Sopa de Cebolla",
+    "descripcion": "Clásica sopa francesa de cebolla gratinada",
+    "robot_id": 1,
+    "categoria_id": 1,
+    "tiempo_preparacion_min": 15,
+    "tiempo_coccion_min": 30,
+    "tiempo_total_min": 45,
+    "porciones": 4,
+    "dificultad": "fácil",
+    "programa_recomendado": "Programa 1",
+    "notas": "Puedes agregar pan tostado y queso gratinado al final",
+    "fuente": "Moulinex PDF",
+    "ingredientes": [
+      {
+        "nombre": "Cebollas",
+        "cantidad": 600,
+        "unidad": "g"
+      },
+      {
+        "nombre": "Caldo de verduras",
+        "cantidad": 1,
+        "unidad": "l"
+      },
+      {
+        "nombre": "Aceite de oliva",
+        "cantidad": 2,
+        "unidad": "tbsp"
+      },
+      {
+        "nombre": "Sal",
+        "cantidad": 1,
+        "unidad": "tsp"
+      },
+      {
+        "nombre": "Pimienta",
+        "cantidad": 0.5,
+        "unidad": "tsp"
+      }
+    ],
+    "pasos": [
+      {
+        "numero": 1,
+        "descripcion": "Pela y corta las cebollas en cuartos gruesos"
+      },
+      {
+        "numero": 2,
+        "descripcion": "Coloca las cebollas y el aceite en el bowl del robot"
+      },
+      {
+        "numero": 3,
+        "descripcion": "Vierte el caldo de verduras y agrega sal y pimienta"
+      },
+      {
+        "numero": 4,
+        "descripcion": "Selecciona Programa 1 y espera a que termine (30 minutos)"
+      },
+      {
+        "numero": 5,
+        "descripcion": "Sirve caliente. Puedes acompañar con pan tostado y queso"
+      }
+    ]
+  },
+  {
+    "titulo": "Sopa de Espinaca y Papa",
+    "descripcion": "Sopa cremosa de espinaca con papa, rica en nutrientes",
+    "robot_id": 1,
+    "categoria_id": 1,
+    "tiempo_preparacion_min": 10,
+    "tiempo_coccion_min": 25,
+    "tiempo_total_min": 35,
+    "porciones": 4,
+    "dificultad": "fácil",
+    "programa_recomendado": "Programa 2",
+    "notas": "Agrega crema de leche al final para mayor cremosidad",
+    "fuente": "Moulinex PDF",
+    "ingredientes": [
+      {
+        "nombre": "Espinaca fresca",
+        "cantidad": 300,
+        "unidad": "g"
+      },
+      {
+        "nombre": "Papa",
+        "cantidad": 250,
+        "unidad": "g"
+      },
+      {
+        "nombre": "Caldo de verduras",
+        "cantidad": 800,
+        "unidad": "ml"
+      },
+      {
+        "nombre": "Cebolla",
+        "cantidad": 100,
+        "unidad": "g"
+      },
+      {
+        "nombre": "Ajo",
+        "cantidad": 1,
+        "unidad": "diente"
+      },
+      {
+        "nombre": "Crema de leche",
+        "cantidad": 100,
+        "unidad": "ml"
+      }
+    ],
+    "pasos": [
+      {
+        "numero": 1,
+        "descripcion": "Pela y corta la papa en cubos. Pica la cebolla y el ajo"
+      },
+      {
+        "numero": 2,
+        "descripcion": "Lava bien la espinaca y córtala en trozos grandes"
+      },
+      {
+        "numero": 3,
+        "descripcion": "Agrega todos los ingredientes en el bowl del robot"
+      },
+      {
+        "numero": 4,
+        "descripcion": "Selecciona Programa 2 y espera a que termine"
+      },
+      {
+        "numero": 5,
+        "descripcion": "Agrega la crema de leche y revuelve bien"
+      },
+      {
+        "numero": 6,
+        "descripcion": "Sirve caliente con un poco de pimienta fresca"
+      }
+    ]
+  },
+  {
+    "titulo": "Batido de Plátano y Fresa",
+    "descripcion": "Batido refrescante con frutas naturales",
+    "robot_id": 1,
+    "categoria_id": 2,
+    "tiempo_preparacion_min": 5,
+    "tiempo_coccion_min": 0,
+    "tiempo_total_min": 5,
+    "porciones": 2,
+    "dificultad": "muy fácil",
+    "programa_recomendado": "Modo mezcla (sin calor)",
+    "notas": "Puedes agregar hielo para una bebida más fría",
+    "fuente": "Manual",
+    "ingredientes": [
+      {
+        "nombre": "Plátano",
+        "cantidad": 1,
+        "unidad": "unidad"
+      },
+      {
+        "nombre": "Fresas",
+        "cantidad": 150,
+        "unidad": "g"
+      },
+      {
+        "nombre": "Leche",
+        "cantidad": 200,
+        "unidad": "ml"
+      },
+      {
+        "nombre": "Yogur natural",
+        "cantidad": 100,
+        "unidad": "g"
+      },
+      {
+        "nombre": "Miel",
+        "cantidad": 1,
+        "unidad": "tbsp"
+      }
+    ],
+    "pasos": [
+      {
+        "numero": 1,
+        "descripcion": "Pela el plátano y córtalo en rodajas"
+      },
+      {
+        "numero": 2,
+        "descripcion": "Lava las fresas y remove el tallo"
+      },
+      {
+        "numero": 3,
+        "descripcion": "Agrega plátano, fresas, leche, yogur y miel en el bowl"
+      },
+      {
+        "numero": 4,
+        "descripcion": "Activa el modo mezcla y deja que procese 1-2 minutos"
+      },
+      {
+        "numero": 5,
+        "descripcion": "Sirve inmediatamente en vasos fríos"
+      }
+    ]
+  }
+]

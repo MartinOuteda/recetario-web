@@ -29,8 +29,15 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <header className={styles.header}>
-        <h1>🍳 Recetario Inteligente</h1>
-        <p>Recetas adaptadas para tus robots de cocina</p>
+        <div className={styles.headerTop}>
+          <div>
+            <h1>🍳 Recetario Inteligente</h1>
+            <p>Recetas adaptadas para tus robots de cocina</p>
+          </div>
+          <Link href="/agregar-receta">
+            <button className={styles.agregarBtn}>➕ Agregar Receta</button>
+          </Link>
+        </div>
       </header>
 
       <main className={styles.main}>
